@@ -1,23 +1,14 @@
 {
     "name": "dev/api",
-    "description": "Projeto com Apache2, PHP e MySql",
+    "description": "API com PHP",
     "type": "project",
     "license": "MIT",
-    "version": "1.0.0",
-    "homepage": "https://github.com/lucioweb/myapp",
-    "minimum-stability": "stable",
     "authors": [
         {
-            "name": "Lúcio Flávio Lemos",
-            "email": "fullstackphp8.3@gmail.com",
-            "role": "developer",
-            "homepage": "https://luciolemos.com.br"
+            "name": "lucioweb",
+            "email": "lucio.lemos.385@ufrn.edu.br"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Source\\": "source/"
-        }
-    },
+    "minimum-stability": "stable",
     "require": {}
 }
