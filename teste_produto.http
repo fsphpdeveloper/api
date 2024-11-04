@@ -1,0 +1,30 @@
+###
+
+POST http://localhost:8000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Produto A",
+    "preco": 10.99
+}
+
+###
+
+GET http://localhost:8000/produtos
+Accept: application/json
+
+###
+
+PUT http://localhost:8000/produtos/23
+Content-Type: application/json
+
+{
+    "nome": "Produto XX",
+    "preco": 4000.99
+}
+
+###
+
+DELETE http://localhost:8000/produtos/23
+
+
